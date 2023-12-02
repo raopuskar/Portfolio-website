@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Puskar.</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" id="contactt">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="left-sec">
+            <h1>Hello, I'm Puskar Rao</h1>
+            <h3>Frontend Developer</h3>
+            <p>"Crafting digital excellence through code – where creativity meets functionality. Explore the artistry behind technology on this journey of innovation and collaboration."</p>
+            <div class="cv">
+                <a href="#">Download CV</a>
+            </div>
+            
+        </div>
+        <div class="image">
+            <img src="myphoto.jpg" alt="Puskar Rao">
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <div class="image1">
+            <div class="img1"></div>
+        </div>
+        <div class="right-sec">
+            <h1>About Me</h1>
+            <p> I'm Puskar Rao, a B.Tech student in Computer Science and Engineering.
+                 Passionate about coding, I enjoy turning ideas into impactful solutions.
+                  Currently exploring diverse projects, I'm proficient in languages like Java, Python, C, Javascript.
+                  Beyond coding, you'll find me Gym. 
+                  Eager to connect with fellow tech enthusiasts and explore collaborative opportunities.
+                   Feel free to connect with me and let's embark on this tech journey together.
+                    Excited about the endless possibilities in the tech world! </p>
+        </div>
+    
+    </section>
+
+    <section id="services">
+        <div class="title">
+            <h2>Services.</h2>
+        </div>
+    
+        <div class="services1">
+            <div class="boxes">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Development</h5>
+                <p>Beautiful and elegant design with interface that are attractive, efficient and pleasent to use for user.</p>
+            </div>
+            <div class="boxes">
+                <i class="fa-regular fa-user"></i>
+                <h5>Web Design</h5>
+                <p>Custom web development tailored  to yours specifications, designed to provide a flawless user experience. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects.</h2>
+        <div class="project-category">
+            <div class="project">
+                <img src="Amazon.jpg" alt="Project 1">
+                <h5>E-Commerce Website</h5>
+                <p>A precision-crafted homage to Amazon's seamless shopping experience.
+                     Dive into the art of e-commerce with this hands-on project,
+                     showcasing intuitive design and user-centric functionality.</p>
+            </div>
+            <div class="project">
+                <img src="food_web.jpg" alt="Project 2">
+                <h5>Food Delivery App</h5>
+                <p>Recreating the savory world of Swiggy, this project mirrors the platform's intuitive ordering system and seamless navigation.
+                     Experience the taste of successful app development in this delectable endeavor.</p>
+            </div>
+            <div class="project">
+                <img src="education-website.jpg" alt="Project 3">
+                <h5>Educational Platform</h5>
+                <p>Bringing the classroom to the digital realm, this Apnai Kaksha clone reflects a user-friendly interface and interactive features.
+                     Explore the seamless integration of learning and technology in this educational project</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="left-contact">
+            <h2>Contact <span style="color: rgb(160, 27, 27);">Me.</span></h2>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        </div>
+        
+        <div class="container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="full-name" name="full-name" required>
+                    <label for="full-name">Full Name</label>
+                    
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                    
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="subject">Subject</label>
+                    
+                </div>
+                <div class="form-group">
+                    <textarea id="description" name="description" rows="5" required></textarea>
+                    <label for="description">Description</label>
+                    
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
